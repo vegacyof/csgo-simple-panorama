@@ -625,6 +625,7 @@ var friendsList = (function() {
 
 	var _OnSideBarHover = function ( isCollapsed )
 	{
+		return;
 		                                                                                          
 		                                                                                                   
 		  
@@ -635,7 +636,7 @@ var friendsList = (function() {
 			                           
 				                                      
 		  
-
+		/*
 		if ( !isCollapsed )
 		{
 			for( var i = 0; i < _m_tabs.length; i++ )
@@ -653,6 +654,7 @@ var friendsList = (function() {
 					_m_tabs[i].elTabRadioBtn.RemoveClass( 'hidden' );
 			}
 		}
+		*/
 	};
 
 	var _OnAddFriend = function ()
@@ -785,4 +787,3 @@ var friendsList = (function() {
 		                                           
 	 
    
-                                                                                                                                                                                                                                                                                                                                                                                                                                
